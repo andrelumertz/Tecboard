@@ -1,3 +1,22 @@
+
+/* Definindo Fonts */
+/* @font-face {
+    font-family: "Unbounded";
+    src: url("../fonts/Unbounded-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-display: swap;
+} */
+
+/* Definindo Fonts */
+/* @font-face {
+    font-family: "Poppins";
+    src: url("../fonts/Poppins-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+} */
+
+
 * {
     margin: 0;
     padding: 0;
@@ -66,6 +85,7 @@ section img {
 
 }
 
+/* Quando chegar ao tamamho de 768px é para executar tal comportamento */
 @media(max-width: 768px){
 
     header img{
@@ -77,6 +97,7 @@ section img {
     }
 }
 
+/* Quando chegar ao tamamho de 375px é para executar tal comportamento */
 @media(max-width: 375px){
     header img{
         margin: 32px 0 0 16px;
